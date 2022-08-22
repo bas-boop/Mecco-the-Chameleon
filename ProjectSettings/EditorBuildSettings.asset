@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e2b9a03c76360ed40b1eb66da0a9f469
+  - enabled: 1
+    path: Assets/Scenes/TestLevel.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: a9d17c0901a5b5b4c9aa6f490d0be0ca
+  - enabled: 1
+    path: Assets/Scenes/Level's/Orange.unity
+    guid: 7bd71b8a719906a44afdd929d353d968
+  - enabled: 1
+    path: Assets/Scenes/Level's/Green.unity
+    guid: a3daf7416394f084394c2b5fc8b26821
+  - enabled: 1
+    path: Assets/Scenes/Level's/Brown.unity
+    guid: 159e4c78406e2f446b2b3b776199869b
+  - enabled: 1
+    path: Assets/Scenes/Level's/Blue-Orange.unity
+    guid: 52d479d3dffa7bb4b9daf340c4e3644f
+  - enabled: 1
+    path: Assets/Scenes/Level's/Blue.unity
+    guid: 2569e382dba431146aadf3a5b44929bb
+  - enabled: 1
+    path: Assets/Scenes/Level's/Purple.unity
+    guid: 17837cf25bcc2ba42993bd934dbd9c86
+  - enabled: 1
+    path: Assets/Scenes/Level's/Red-Green.unity
+    guid: 3ec86439a78582e4d9a8c43d2e1b23d2
+  - enabled: 1
+    path: Assets/Scenes/Level's/Red.unity
+    guid: 46586f47e3230a347ba03f2aa3fdcc22
+  - enabled: 1
+    path: Assets/Scenes/Level's/Yellow-Purple.unity
+    guid: 115ef57a996f9ee4d9ef31fa1e35df2d
+  - enabled: 1
+    path: Assets/Scenes/Level's/Yellow.unity
+    guid: aae99149c89e8d2459c96fe6ac742613
+  m_configObjects: {}
