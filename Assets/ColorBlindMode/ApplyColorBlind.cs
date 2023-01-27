@@ -13,6 +13,8 @@ public class ApplyColorBlind : MonoBehaviour
     private void Awake()
     {
         _CBM = GameObject.Find("ColorBlind Manger");
+        if(_CBM == null) return;
+        
         colorBlindManger = _CBM.GetComponent<ColorBlindManger>();
         
         if(colorBlindManger.GetColorBlind) colorBlind.SetActive(true);

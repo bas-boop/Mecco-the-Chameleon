@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerColorManger : MonoBehaviour
 {
+    private AudioSource _pickupSound;
+    
     [Header("Refrence")]
     [SerializeField] private SpriteRenderer playerSprite;
     [SerializeField] private AudioSource water;
@@ -34,6 +36,7 @@ public class PlayerColorManger : MonoBehaviour
     
     private void Awake()
     {
+        _pickupSound = GetComponent<AudioSource>();
         playerSprite = GetComponent<SpriteRenderer>();
         gameObject.AddTag("White");
         hasAColor = false;
@@ -190,6 +193,6 @@ public class PlayerColorManger : MonoBehaviour
 
     private void PlaySound()
     {
-        GetComponent<AudioSource>().Play();
+        _pickupSound.Play();
     }
 }
